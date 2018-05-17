@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName ="PongPlayerProfile", menuName ="Profiles/PongPlayer")]
-public class PongProfile : ScriptableObject {
+public abstract class PongProfile : ScriptableObject {
 
     public Color mainColor;
-
+    public abstract void WhenHitBall(Rigidbody2D rigidBall);
 }
 

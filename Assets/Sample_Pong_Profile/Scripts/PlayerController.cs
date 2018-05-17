@@ -64,6 +64,11 @@ namespace Sample_1
             rbody2d.MovePosition(movePosition);
         }
 
+        private void OnCollisionExit2D(Collision2D collision)
+        {
+            pongProfile.WhenHitBall(collision.collider.GetComponent<Rigidbody2D>());
+        }
+
     }
 
 }
