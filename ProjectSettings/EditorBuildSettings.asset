@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Sample_Pong_Profile/SamplePong_1.unity
+    guid: 4d6c8d4aab5aec240a47674801fd7f4b
+  - enabled: 1
     path: Assets/Sample_Pong_Profile/Sample_1_GameOver.unity
     guid: d2146d3368337c24fae82fb260787f72
   m_configObjects: {}

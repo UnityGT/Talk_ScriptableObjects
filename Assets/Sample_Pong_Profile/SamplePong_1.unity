@@ -141,6 +141,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 1947506337}
+  gameData: {fileID: 11400000, guid: 79d286fdd7beda34ab1e668df8065d49, type: 2}
+  leftPlayer: {fileID: 1234407468}
+  righPlayer: {fileID: 689524034}
 --- !u!4 &190839305
 Transform:
   m_ObjectHideFlags: 0
@@ -294,7 +297,7 @@ GameObject:
   - component: {fileID: 689524035}
   - component: {fileID: 689524034}
   m_Layer: 0
-  m_Name: Player_2
+  m_Name: RightPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -685,7 +688,7 @@ GameObject:
   - component: {fileID: 1234407469}
   - component: {fileID: 1234407468}
   m_Layer: 0
-  m_Name: Player_1
+  m_Name: LeftPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -932,3 +935,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0ff96c80af45084eb87771d4edbaec8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStart: {fileID: 190839304}

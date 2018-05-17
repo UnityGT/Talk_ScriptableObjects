@@ -8,6 +8,9 @@ namespace Sample_1
     {
 
         public Rigidbody2D ball;
+        public GameData gameData;
+        public PlayerController leftPlayer;
+        public PlayerController righPlayer;
 
         // Use this for initialization
         void Start()
