@@ -6,16 +6,22 @@ namespace Sample_1
 {
     public class PlayerController : MonoBehaviour
     {
-
+        public PongProfile pongProfile;
         public bool isPlayer2;
         public bool upPressed;
         public bool downPressed;
         private Rigidbody2D rbody2d;
+        private SpriteRenderer spriteRenderer;
 
         // Use this for initialization
         void Start()
         {
             rbody2d = GetComponent<Rigidbody2D>();
+            spriteRenderer = GetComponent<SpriteRenderer>();
+            if (pongProfile != null)
+            {
+                spriteRenderer.color = pongProfile.mainColor;
+            }
         }
 
         // Update is called once per frame
