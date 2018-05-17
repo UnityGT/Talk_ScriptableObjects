@@ -311,7 +311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9de5bd8f1a0c4cb4cab89a90b703a195, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pongProfile: {fileID: 11400000, guid: 644a63a208a5a394dbf8a64118610209, type: 2}
+  pongProfile: {fileID: 11400000, guid: 469832afe320e3c4c87d24fbd4791fda, type: 2}
   isPlayer2: 1
   upPressed: 0
   downPressed: 0
